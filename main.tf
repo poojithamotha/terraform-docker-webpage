@@ -25,7 +25,7 @@ resource "docker_container" "web" {
 
   mounts {
     target    = "/usr/share/nginx/html"
-    source    = "C:/Users/Poojitha Motha/Documents/webpage/site"
+    source    = "*********************************"
     type      = "bind"
     read_only = true
   }
